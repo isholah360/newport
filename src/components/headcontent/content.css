@@ -1,0 +1,32 @@
+.headercontent{
+    color: white;
+    /* text-align: center; */
+    font-family: 'Questrial', sans-serif;
+}
+.name{
+    font-size: 6rem;
+    font-weight: bolder;  
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.thedev{
+    font-size: 2.5rem;
+    margin: 1.5rem 10rem;
+    display: flex;
+    gap: 10px;
+    /* text-align: center; */
+    font-family: 'Questrial', sans-serif;
+}
+@media screen and (max-width:480px) {
+    .name{
+        font-size: 1rem;
+    }
+    .thedev{
+        font-size: 1rem;
+    }
+    .headercontent{
+        color: white;
+     
+        font-family: 'Questrial', sans-serif;
+    }
+}
